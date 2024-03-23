@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Anderson</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="Shortcut icon" type="sheet-icon" href="img/sheet.png">
+</head>
+
+<body class="vh-100 back">
+  <!-- NAVBAR -->
+    <header>
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+        <div class="container">
+
+            <!-- LOGO -->
+          <a class="navbar-brand fs-4" href="#">Anderson.</a>
+
+          <!-- TOOGLE BTN -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+
+          <!-- SIDEBAR -->
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- sidebar header -->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Anderson.</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- sidebar body -->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#education">Educations</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#certificate">Certificate</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+
+              <!-- dark mode dropdown -->
+              <li class="nav-item mx-2 dropdown">
+                  <button class="btn nav-item mx-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="light">
+                        <i class="bi bi-sun-fill me-2 opacity-50" data-theme-icon="bi-sun-fill"></i>
+                        Light
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="dark">
+                        <i class="bi bi-moon-stars-fill me-2 opacity-50" data-theme-icon="bi-moon-stars-fill"></i>
+                        Dark
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="dark">
+                        <i class="bi bi-circle-half me-2 opacity-50" data-theme-icon="bi-circle-half"></i>
+                        Auto
+                      </button>
+                    </li>
+                  </ul>
+              </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end content navbar -->
+
+    <!-- home content -->
+    <section class="hero" id="home" data-aos="fade-right">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="hero-text text">
+                <h1  class="" style="color: orange;">Hello ,I'm <span >Andre Firmansyah</span></h1>
+                <div class="text-animate">
+                  <h3>I'm a <span class="auto-typed"></span></h3>
+                </div>
+                <p>
+                  I'm a passionate frontend developer with a keen eye for detail and a love for crafting engaging user experiences.
+                </p>
+                <button class="btn" style="background-color: orange;" >Hire Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- end home content -->
+
+    <!-- about content -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4" data-aos="fade-up">About me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/about.png" class="img-fluid" alt="Placeholder Image" data-aos="fade-right">
+          </div>
+          <div class="col-md-6 home-content">
+            <input id="ch" type="checkbox">
+            <h2 style="color: orange;" data-aos="fade-left">Welcome to My Portofolio website</h2>
+            <p data-aos="fade-left">My name is Andre Firmansyah, an experienced Frontend Developer from Samarinda. 
+              Specializing in Frontend Engineering, I bring 5 years of experience to every project. 
+              With a background in Computer Science Bachelor's Degree obtained in 2026, I focus on innovation and collaboration.
+            </p>
+            <div class="about-content" data-aos="fade-left">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laboriosam officia a cumque temporibus! Doloremque blanditiis at eum modi culpa dicta iste maxime sint optio magni, vitae odio obcaecati alias dolores qui! Rem dignissimos error, ipsam maiores perferendis voluptatem eum eius! Quidem laudantium hic fugit deleniti perferendis reiciendis iusto voluptatibus.Thank you for visiting.
+              </p>
+
+            <label for="ch" class="btn" style="background-color: orange;" data-aos="fade-left">Show Less</label>
+            </div>
+            
+            <label for="ch" class="btn mt-2" style="background-color: orange;" data-aos="fade-left">Read More</label>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <!-- end about content -->
+    
+    <!-- educations content -->
+    <section class="ftco-section ftco-no-pb" id="education">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4" data-aos="fade-up">Education</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate" data-aos="fade-right">
+              <span class="date bi bi-calendar-fill"> 2016 - 2019</span>
+              <h2>Junior high School Annur</h2>
+              <span class="position">Student</span>
+              <p class="mt-4">
+                <strong>Junior high school Annur</strong>
+                established on July 17, 1992, by KH. Badruddin Anwar, now exists to provide an alternative education in science, technology, and religious knowledge (IPTEK and IMTAQ) based on Islamic boarding school principles with a "24-Hour Education" system located within the environment of Islamic Boarding School Wisata An-Nur 2 Al Murtadlo.
+              </p>
+            </div>
+            <div class="resume-wrap ftco-animate" data-aos="fade-right">
+              <span class="date bi bi-calendar-fill"> 2019 - 2020</span>
+              <h2>Senior High School Annur</h2>
+              <span class="position">Student</span>
+              <p class="mt-4">
+                <strong>Senior High School Annur</strong>
+                established on July 1, 1989, by KH. Badruddin Anwar, now exists to provide an alternative education in science, technology, and religious knowledge (IPTEK and IMTAQ) based on Islamic boarding school principles with a "24-Hour Education" system located within the environment of Islamic Boarding School Wisata An-Nur 2 Al Murtadlo.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate"data-aos="fade-left">
+              <span class="date bi bi-calendar-fill"> 2021 - 2022</span>
+              <h2>Islamic Senior High School Arridlo</h2>
+              <span class="position">Student</span>
+              <p class="mt-4">
+                <strong>Islamic senior high school</strong>
+                is a private high school located in Dusun Tawang, Rt. 30 Rw. 06, Malang Regency.
+              </p>
+            </div>
+            <div class="resume-wrap ftco-animate" data-aos="fade-left">
+              <span class="date bi bi-calendar-fill"> 2022 - Present</span>
+              <h2>Mulawarman University</h2>
+              <span class="position">Students of the information systems study program</span>
+              <p class="mt-4">
+                <strong>
+                  Mulawarman University
+                </strong>
+                is a university with the largest number of students in Kalimantan, with a total of more than 31,913 students. Its main campus is located in Gunung Kelua, while other campuses are situated on Pahlawan Street, Banggeris Street, and Flores Street.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end education content -->
+    
+    </div>
+    <!-- skill content -->
+    <section class="skills container" id="skills">
+      <div class="containe">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4" data-aos="fade-up">Skill</h2>
+          </div>
+        </div>
+        <div class="progress-container" data-aos="fade-right" data-aos-delay="100">
+            <h4>HTML</h4>
+            <div class="progress-bar">
+                <span data-width="90%"></span>
+            </div>
+        </div>
+        <div class="progress-container" data-aos="fade-left" data-aos-delay="200">
+            <h4>CSS</h4>
+            <div class="progress-bar">
+                <span data-width="80%"></span>
+            </div>
+        </div>
+        <div class="progress-container" data-aos="fade-right" data-aos-delay="300">
+            <h4>JavaScript</h4>
+            <div class="progress-bar">
+                <span data-width="70%"></span>
+            </div>
+        </div>
+        <div class="progress-container" data-aos="fade-left" data-aos-delay="400">
+            <h4>BootStrap</h4>
+            <div class="progress-bar">
+                <span data-width="60%"></span>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- end skill content -->
+
+    <!-- certificate content -->
+    <section id="certificate" about="certificate">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4" data-aos="fade-up">Certificate</h2>
+          </div>
+        </div>
+          <!-- index.html -->
+          <div class="content__certificates">
+              <div class="row row-cols-1 row-cols-md-2 g-4" id="certificateContainer">
+                  <div class="col" data-aos="fade-right" data-aos-delay="100">
+                      <div class="card" data-src="/img/Aplikasi.png">
+                          <img src="img/Aplikasi.png" class="card-img-top" alt="Certificate 1">
+                          <div class="card-body">
+                              <h5 class="card-title">Certificate 1</h5>
+                              <p class="card-text">This is a certificate card.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col" data-aos="fade-left" data-aos-delay="200">
+                      <div class="card" data-src="img/Insevent.jpg">
+                          <img src="img/Insevent.jpg" class="card-img-top" alt="Certificate 2">
+                          <div class="card-body">
+                              <h5 class="card-title">Certificate 2</h5>
+                              <p class="card-text">This is a certificate card.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col" data-aos="fade-right" data-aos-delay="300">
+                      <div class="card" data-src="img/Mubes.png">
+                          <img src="img/Mubes.png" class="card-img-top" alt="Certificate 3">
+                          <div class="card-body">
+                              <h5 class="card-title">Certificate 3</h5>
+                              <p class="card-text">This is a certificate card.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col" data-aos="fade-left" data-aos-delay="400">
+                      <div class="card" data-src="">
+                          <img src="" class="card-img-top" alt="Certificate 4">
+                          <div class="card-body">
+                              <h5 class="card-title">Certificate 4</h5>
+                              <p class="card-text">This is a certificate card.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="modal" id="certificateModal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="certificateImg">
+          </div>
+      </div>
+  </section>
+    <!-- end certificate content -->
+    
+    <!-- contact content -->
+    <section class="contact ftco-no-pb" id="contact">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4" data-aos="fade-up">Contact</h2>
+          </div>
+        </div>
+        <div class="content">
+          <div class="left-side" data-aos="fade-right">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Reel Street</div>
+              <div class="text-two">Reel 13, No 21</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+62 123 4567 8900</div>
+              <div class="text-two">+62 098 7654 3211</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">syarqian24b@gmail.com</div>
+              <div class="text-two">born4noob@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side" data-aos="fade-left">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+            <form id="contactForm" action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box message-box">
+                <textarea placeholder="Message" required></textarea>
+              </div>
+              <div class="button">
+                <button type="submit" class="btn" style="background-color: orange;">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>     
+    <!-- end contact content -->
+
+    <footer class="footer shadow-">
+      <div class="footer-text text-center">
+          <p>Copyright &copy; 2024 by Anderson Developer | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-typed",{
+        strings : ["Programmer", "Designer" ,"Frontend Developer"],
+        typeSpeed : 100,
+        backSpeed : 100,
+        loop : true
+      })
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 300
+      });
+    </script>
+    <script src="script.js"></script>
+    <script src="js/aos.js"></script>
+</body>
+</html>
